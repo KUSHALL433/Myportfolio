@@ -287,7 +287,7 @@ nav ul {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -301,22 +301,37 @@ nav ul {
 }
 
 .projects h2 {
-  margin: 5rem;
+  margin: 3rem;
 }
 
-.travelly,
-.edward,
-.elenajoy {
+.coffeesales,
+.twicth_streamers,
+.electric_vehicle,
+.marvelmovies,
+.fandango {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
 }
 
-.travelly img,
-.edward img,
-.elenajoy img {
-  height: 1000px;
-  width: 740px;
+.coffeesales img,
+.twicth_streamers img,
+.electric_vehicle img {
+  height: 600px;
+  width: 1080px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.marvelmovies img,
+.fandango img {
+  height: 500px;
+  width: 1080px;
   -o-object-fit: contain;
      object-fit: contain;
   display: -webkit-box;
@@ -542,9 +557,9 @@ footer h4 {
   .projects h2 {
     text-align: center;
   }
-  .travelly img,
-  .elenajoy img,
-  .edward img {
+  .coffeesales img,
+  .twicth_streamers img,
+  .electric_vehicle img {
     width: 95%;
     height: 75%;
     -webkit-box-align: center;
