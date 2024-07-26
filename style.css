@@ -559,7 +559,9 @@ footer h4 {
   }
   .coffeesales img,
   .twicth_streamers img,
-  .electric_vehicle img {
+  .electric_vehicle img,
+  .marvelmovies img,
+  .fandango img{
     width: 95%;
     height: 75%;
     -webkit-box-align: center;
